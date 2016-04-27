@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ACE32341CD0FBA00035399D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32331CD0FBA00035399D /* AppDelegate.swift */; };
-		1ACE32361CD0FBA00035399D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32351CD0FBA00035399D /* ViewController.swift */; };
-		1ACE32391CD0FBA00035399D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE32371CD0FBA00035399D /* Main.storyboard */; };
-		1ACE323B1CD0FBA00035399D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE323A1CD0FBA00035399D /* Assets.xcassets */; };
-		1ACE323E1CD0FBA00035399D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE323C1CD0FBA00035399D /* LaunchScreen.storyboard */; };
-		1ACE32491CD0FBA00035399D /* WingmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32481CD0FBA00035399D /* WingmanTests.swift */; };
-		1ACE32541CD0FBA00035399D /* WingmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32531CD0FBA00035399D /* WingmanUITests.swift */; };
+		1ACE327E1CD0FC750035399D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32731CD0FC750035399D /* ViewController.swift */; };
+		1ACE327F1CD0FC750035399D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE32751CD0FC750035399D /* Assets.xcassets */; };
+		1ACE32801CD0FC750035399D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32771CD0FC750035399D /* AppDelegate.swift */; };
+		1ACE32821CD0FC750035399D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE327A1CD0FC750035399D /* LaunchScreen.storyboard */; };
+		1ACE32831CD0FC750035399D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE327C1CD0FC750035399D /* Main.storyboard */; };
+		1ACE32891CD0FCD10035399D /* WingmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32861CD0FCD10035399D /* WingmanTests.swift */; };
+		1ACE32901CD0FCD90035399D /* WingmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE328D1CD0FCD90035399D /* WingmanUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +35,18 @@
 
 /* Begin PBXFileReference section */
 		1ACE32301CD0FBA00035399D /* Wingman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wingman.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ACE32331CD0FBA00035399D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1ACE32351CD0FBA00035399D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1ACE32381CD0FBA00035399D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1ACE323A1CD0FBA00035399D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1ACE323D1CD0FBA00035399D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1ACE323F1CD0FBA00035399D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACE32441CD0FBA00035399D /* WingmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WingmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ACE32481CD0FBA00035399D /* WingmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WingmanTests.swift; sourceTree = "<group>"; };
-		1ACE324A1CD0FBA00035399D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACE324F1CD0FBA00035399D /* WingmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WingmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ACE32531CD0FBA00035399D /* WingmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WingmanUITests.swift; sourceTree = "<group>"; };
-		1ACE32551CD0FBA00035399D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACE32731CD0FC750035399D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ACE32751CD0FC750035399D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ACE32771CD0FC750035399D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ACE32781CD0FC750035399D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACE327B1CD0FC750035399D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ACE327D1CD0FC750035399D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ACE32861CD0FCD10035399D /* WingmanTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WingmanTests.swift; sourceTree = "<group>"; };
+		1ACE32881CD0FCD10035399D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACE328D1CD0FCD90035399D /* WingmanUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WingmanUITests.swift; sourceTree = "<group>"; };
+		1ACE328F1CD0FCD90035399D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +77,10 @@
 		1ACE32271CD0FBA00035399D = {
 			isa = PBXGroup;
 			children = (
-				1ACE32321CD0FBA00035399D /* Wingman */,
-				1ACE32471CD0FBA00035399D /* WingmanTests */,
-				1ACE32521CD0FBA00035399D /* WingmanUITests */,
 				1ACE32311CD0FBA00035399D /* Products */,
+				1ACE32711CD0FC750035399D /* Wingman */,
+				1ACE32841CD0FCD10035399D /* WingmanTests */,
+				1ACE328B1CD0FCD90035399D /* WingmanUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,35 +94,99 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1ACE32321CD0FBA00035399D /* Wingman */ = {
+		1ACE32711CD0FC750035399D /* Wingman */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE32331CD0FBA00035399D /* AppDelegate.swift */,
-				1ACE32351CD0FBA00035399D /* ViewController.swift */,
-				1ACE32371CD0FBA00035399D /* Main.storyboard */,
-				1ACE323A1CD0FBA00035399D /* Assets.xcassets */,
-				1ACE323C1CD0FBA00035399D /* LaunchScreen.storyboard */,
-				1ACE323F1CD0FBA00035399D /* Info.plist */,
+				1ACE32721CD0FC750035399D /* Controller */,
+				1ACE32741CD0FC750035399D /* Resource */,
+				1ACE32761CD0FC750035399D /* Supporting-File */,
+				1ACE32791CD0FC750035399D /* User-Interface */,
 			);
 			path = Wingman;
 			sourceTree = "<group>";
 		};
-		1ACE32471CD0FBA00035399D /* WingmanTests */ = {
+		1ACE32721CD0FC750035399D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE32481CD0FBA00035399D /* WingmanTests.swift */,
-				1ACE324A1CD0FBA00035399D /* Info.plist */,
+				1ACE32731CD0FC750035399D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1ACE32741CD0FC750035399D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE32751CD0FC750035399D /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1ACE32761CD0FC750035399D /* Supporting-File */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE32771CD0FC750035399D /* AppDelegate.swift */,
+				1ACE32781CD0FC750035399D /* Info.plist */,
+			);
+			path = "Supporting-File";
+			sourceTree = "<group>";
+		};
+		1ACE32791CD0FC750035399D /* User-Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE327A1CD0FC750035399D /* LaunchScreen.storyboard */,
+				1ACE327C1CD0FC750035399D /* Main.storyboard */,
+			);
+			path = "User-Interface";
+			sourceTree = "<group>";
+		};
+		1ACE32841CD0FCD10035399D /* WingmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE32851CD0FCD10035399D /* Controller */,
+				1ACE32871CD0FCD10035399D /* Supporting-File */,
 			);
 			path = WingmanTests;
 			sourceTree = "<group>";
 		};
-		1ACE32521CD0FBA00035399D /* WingmanUITests */ = {
+		1ACE32851CD0FCD10035399D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE32531CD0FBA00035399D /* WingmanUITests.swift */,
-				1ACE32551CD0FBA00035399D /* Info.plist */,
+				1ACE32861CD0FCD10035399D /* WingmanTests.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1ACE32871CD0FCD10035399D /* Supporting-File */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE32881CD0FCD10035399D /* Info.plist */,
+			);
+			path = "Supporting-File";
+			sourceTree = "<group>";
+		};
+		1ACE328B1CD0FCD90035399D /* WingmanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE328C1CD0FCD90035399D /* Navigation */,
+				1ACE328E1CD0FCD90035399D /* Supporting-File */,
 			);
 			path = WingmanUITests;
+			sourceTree = "<group>";
+		};
+		1ACE328C1CD0FCD90035399D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE328D1CD0FCD90035399D /* WingmanUITests.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1ACE328E1CD0FCD90035399D /* Supporting-File */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE328F1CD0FCD90035399D /* Info.plist */,
+			);
+			path = "Supporting-File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +257,7 @@
 				TargetAttributes = {
 					1ACE322F1CD0FBA00035399D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZFDEX86BMA;
 					};
 					1ACE32431CD0FBA00035399D = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,9 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE323E1CD0FBA00035399D /* LaunchScreen.storyboard in Resources */,
-				1ACE323B1CD0FBA00035399D /* Assets.xcassets in Resources */,
-				1ACE32391CD0FBA00035399D /* Main.storyboard in Resources */,
+				1ACE327F1CD0FC750035399D /* Assets.xcassets in Resources */,
+				1ACE32831CD0FC750035399D /* Main.storyboard in Resources */,
+				1ACE32821CD0FC750035399D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE32361CD0FBA00035399D /* ViewController.swift in Sources */,
-				1ACE32341CD0FBA00035399D /* AppDelegate.swift in Sources */,
+				1ACE32801CD0FC750035399D /* AppDelegate.swift in Sources */,
+				1ACE327E1CD0FC750035399D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE32491CD0FBA00035399D /* WingmanTests.swift in Sources */,
+				1ACE32891CD0FCD10035399D /* WingmanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE32541CD0FBA00035399D /* WingmanUITests.swift in Sources */,
+				1ACE32901CD0FCD90035399D /* WingmanUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +358,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1ACE32371CD0FBA00035399D /* Main.storyboard */ = {
+		1ACE327A1CD0FC750035399D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1ACE32381CD0FBA00035399D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1ACE323C1CD0FBA00035399D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1ACE323D1CD0FBA00035399D /* Base */,
+				1ACE327B1CD0FC750035399D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1ACE327C1CD0FC750035399D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ACE327D1CD0FC750035399D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,7 +466,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Wingman/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Wingman/Supporting-File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.andbeyond.Wingman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +478,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Wingman/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Wingman/Supporting-File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.andbeyond.Wingman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,7 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WingmanTests/Info.plist;
+				INFOPLIST_FILE = "WingmanTests/Supporting-File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.andbeyond.WingmanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WingmanTests/Info.plist;
+				INFOPLIST_FILE = "WingmanTests/Supporting-File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.andbeyond.WingmanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +513,7 @@
 		1ACE325F1CD0FBA00035399D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = WingmanUITests/Info.plist;
+				INFOPLIST_FILE = "WingmanUITests/Supporting-File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.andbeyond.WingmanUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,7 +524,7 @@
 		1ACE32601CD0FBA00035399D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = WingmanUITests/Info.plist;
+				INFOPLIST_FILE = "WingmanUITests/Supporting-File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.andbeyond.WingmanUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +551,7 @@
 				1ACE325A1CD0FBA00035399D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ACE325B1CD0FBA00035399D /* Build configuration list for PBXNativeTarget "WingmanTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +560,7 @@
 				1ACE325D1CD0FBA00035399D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ACE325E1CD0FBA00035399D /* Build configuration list for PBXNativeTarget "WingmanUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +569,7 @@
 				1ACE32601CD0FBA00035399D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
