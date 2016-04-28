@@ -22,7 +22,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionViewCell" id="c6V-aw-1Pd" customClass="ProductCollectionViewCell" customModule="Wingman" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionViewCell" id="c6V-aw-1Pd" customClass="FoodProductCollectionViewCell" customModule="Wingman" customModuleProvider="target">
                                 <rect key="frame" x="140" y="0.0" width="320" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -126,6 +126,15 @@
                                     <constraint firstAttribute="trailing" secondItem="4J8-rL-yQV" secondAttribute="trailing" id="lBG-E5-9ff"/>
                                     <constraint firstItem="Hqs-JE-jyz" firstAttribute="top" secondItem="4J8-rL-yQV" secondAttribute="bottom" id="oHu-fU-s0O"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="addButton" destination="W9L-DK-c7Q" id="xSZ-Kb-uaX"/>
+                                    <outlet property="initialDietaryInfoImageView" destination="ySw-5x-aNh" id="HHN-d5-yvq"/>
+                                    <outlet property="priceLabel" destination="a4n-g9-sbk" id="Aii-Tm-xvQ"/>
+                                    <outlet property="productImageView" destination="H0o-wk-wdb" id="TsX-ak-S1N"/>
+                                    <outlet property="productInfoStackView" destination="RXy-7r-ZTL" id="5tg-vk-dcr"/>
+                                    <outlet property="quantityTextField" destination="H0y-4f-EaY" id="UR1-1g-jcW"/>
+                                    <outlet property="servingsLabel" destination="iK3-Pm-xLe" id="w7j-ii-b9u"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

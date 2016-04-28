@@ -8,17 +8,19 @@
 
 import UIKit
 
-//	MARK: Product Collection View Cell
+//	MARK: Food Product Collection View Cell
 
 /**
-    `ProductCollectionViewCell`
+    `FoodProductCollectionViewCell`
  
-    The cell which displays a product to the user and allows them to act on it.
+    The cell which displays a food product to the user and allows them to act on it.
  */
-class ProductCollectionViewCell: UICollectionViewCell {
+class FoodProductCollectionViewCell: UICollectionViewCell {
     
     //	MARK: Properties - Subviews: Detail
     
+    /// An image view that acts as an initial icon to display dietary information if necessary. More can be added to the stack view ordered after this.
+    @IBOutlet private var initialDietaryInfoImageView: UIImageView!
     /// Displays the image of the product to the user.
     @IBOutlet private var productImageView: UIImageView!
     /// A stack view which holds fields that provide information for the product. Add dietary / lifestyle icons to the end of this stack view.
