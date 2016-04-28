@@ -22,7 +22,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="c6V-aw-1Pd" customClass="ProductCollectionViewCell" customModule="Wingman" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionViewCell" id="c6V-aw-1Pd" customClass="ProductCollectionViewCell" customModule="Wingman" customModuleProvider="target">
                                 <rect key="frame" x="140" y="0.0" width="320" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -32,7 +32,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4J8-rL-yQV" userLabel="Detail View">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="256"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H0o-wk-wdb">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H0o-wk-wdb" userLabel="Product Image View">
                                                     <rect key="frame" x="8" y="8" width="304" height="192"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="H0o-wk-wdb" secondAttribute="height" multiplier="19:12" id="q4V-d9-wXk"/>

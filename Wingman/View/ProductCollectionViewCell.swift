@@ -17,4 +17,9 @@ import UIKit
  */
 class ProductCollectionViewCell: UICollectionViewCell {
     
+    //	MARK: Properties - Subviews
+    
+    /// Displays the image of the product to the user.
+    @IBOutlet private var productImageView: UIImageView!
+    
 }
