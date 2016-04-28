@@ -14,6 +14,7 @@
 		1ACE32831CD0FC750035399D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE327C1CD0FC750035399D /* Main.storyboard */; };
 		1ACE32891CD0FCD10035399D /* WingmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32861CD0FCD10035399D /* WingmanTests.swift */; };
 		1ACE32901CD0FCD90035399D /* WingmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE328D1CD0FCD90035399D /* WingmanUITests.swift */; };
+		1ACE32941CD2101C0035399D /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE32931CD2101C0035399D /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1ACE32881CD0FCD10035399D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACE328D1CD0FCD90035399D /* WingmanUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WingmanUITests.swift; sourceTree = "<group>"; };
 		1ACE328F1CD0FCD90035399D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACE32931CD2101C0035399D /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				1ACE32741CD0FC750035399D /* Resource */,
 				1ACE32761CD0FC750035399D /* Supporting-File */,
 				1ACE32791CD0FC750035399D /* User-Interface */,
+				1ACE32921CD20FDA0035399D /* View */,
 			);
 			path = Wingman;
 			sourceTree = "<group>";
@@ -187,6 +190,14 @@
 				1ACE328F1CD0FCD90035399D /* Info.plist */,
 			);
 			path = "Supporting-File";
+			sourceTree = "<group>";
+		};
+		1ACE32921CD20FDA0035399D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE32931CD2101C0035399D /* ProductCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACE32801CD0FC750035399D /* AppDelegate.swift in Sources */,
+				1ACE32941CD2101C0035399D /* ProductCollectionViewCell.swift in Sources */,
 				1ACE327E1CD0FC750035399D /* TableTopCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
